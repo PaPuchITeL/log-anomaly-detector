@@ -1,0 +1,106 @@
+[
+    {
+        "timestamp": "2026-04-07 00:14:01",
+        "username": "admin",
+        "ip": "203.0.113.50",
+        "event_type": "failed_login",
+        "reason": "Failed login attempt found in SSH logs.",
+        "label": "suspicious"
+    },
+    {
+        "timestamp": "2026-04-07 00:14:15",
+        "username": "admin",
+        "ip": "203.0.113.50",
+        "event_type": "failed_login",
+        "reason": "Failed login attempt found in SSH logs.",
+        "label": "suspicious"
+    },
+    {
+        "timestamp": "2026-04-07 00:14:28",
+        "username": "admin",
+        "ip": "203.0.113.50",
+        "event_type": "failed_login",
+        "reason": "Failed login attempt found in SSH logs.",
+        "label": "suspicious"
+    },
+    {
+        "timestamp": "2026-04-07 00:14:41",
+        "username": "admin",
+        "ip": "203.0.113.50",
+        "event_type": "failed_login",
+        "reason": "Failed login attempt found in SSH logs.",
+        "label": "suspicious"
+    },
+    {
+        "timestamp": "2026-04-07 00:14:55",
+        "username": "admin",
+        "ip": "203.0.113.50",
+        "event_type": "failed_login",
+        "reason": "Failed login attempt found in SSH logs.",
+        "label": "suspicious"
+    },
+    {
+        "timestamp": "2026-04-07 00:14:55",
+        "username": "admin",
+        "ip": "203.0.113.50",
+        "event_type": "brute_force_attempt",
+        "reason": "5 failed logins from the same IP reached the threshold of 5.",
+        "label": "critical"
+    },
+    {
+        "timestamp": "2026-04-07 02:10:00",
+        "username": "admin",
+        "ip": "203.0.113.50",
+        "event_type": "successful_login",
+        "reason": "Successful login found in SSH logs.",
+        "label": "normal"
+    },
+    {
+        "timestamp": "2026-04-07 02:10:00",
+        "username": "admin",
+        "ip": "203.0.113.50",
+        "event_type": "account_compromise",
+        "reason": "Successful login happened after 5 failed attempts from the same IP.",
+        "label": "critical"
+    },
+    {
+        "timestamp": "2026-04-07 02:10:00",
+        "username": "admin",
+        "ip": "203.0.113.50",
+        "event_type": "unusual_hour_login",
+        "reason": "Successful login happened during unusual hours (22:00-6:00).",
+        "label": "suspicious"
+    },
+    {
+        "timestamp": "2026-04-07 03:33:20",
+        "username": "analyst",
+        "ip": "192.0.2.44",
+        "event_type": "successful_login",
+        "reason": "Successful login found in SSH logs.",
+        "label": "normal"
+    },
+    {
+        "timestamp": "2026-04-07 03:33:20",
+        "username": "analyst",
+        "ip": "192.0.2.44",
+        "event_type": "unusual_hour_login",
+        "reason": "Successful login happened during unusual hours (22:00-6:00).",
+        "label": "suspicious"
+    },
+    {
+        "timestamp": "2026-04-07 10:30:12",
+        "username": "student",
+        "ip": "198.51.100.20",
+        "event_type": "successful_login",
+        "reason": "Successful login found in SSH logs.",
+        "label": "normal"
+    },
+    {
+        "timestamp": "2026-04-07 11:42:07",
+        "username": "user1",
+        "ip": "198.51.100.77",
+        "event_type": "failed_login",
+        "reason": "Failed login attempt found in SSH logs.",
+        "label": "suspicious"
+    }
+]
